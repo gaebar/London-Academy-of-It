@@ -6,7 +6,7 @@ BMI_result = weight / height ** 2
 # rounded number to two decimals
 #BMI_rounded = round(BMI_result * 100)/100
 
-print("\nYour BMI is: %.2f" % BMI_result)
+print("\nYour BMI is: %.2f" % BMI_result)  # %.2f, non ricordo cosa significa
 
 category = ""
 

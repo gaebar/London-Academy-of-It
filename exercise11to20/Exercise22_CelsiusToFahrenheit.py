@@ -7,6 +7,3 @@ def celsiustof(degree):
 
 for degree in range(first_number, last_number):
     print(degree, celsiustof(degree))
-
-
-

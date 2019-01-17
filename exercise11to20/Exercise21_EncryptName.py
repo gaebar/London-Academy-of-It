@@ -1,6 +1,6 @@
 name = input("Please enter your name: ")
 name_lenght = len(name)
-name_crypto = ""
+name_crypto: str = ""
 
 for letter in name:
     if name_crypto == "":
