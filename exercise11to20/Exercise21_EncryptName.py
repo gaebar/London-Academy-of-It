@@ -1,3 +1,6 @@
+
+# Alberto's way:
+
 name = input("Please enter your name: ")
 name_lenght = len(name)
 name_crypto: str = ""
@@ -12,3 +15,9 @@ for letter in name:
 
 
 print("Encrypted form is ", name_crypto)
+
+
+
+# professor's way:
+name = input("Please enter your name: ")
+print(name[0] + '*' *(len(name)-2) + name[-1])
